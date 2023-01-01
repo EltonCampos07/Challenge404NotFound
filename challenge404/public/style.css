@@ -1,5 +1,7 @@
 :root {
   --main-bg-color: #ffffff;
+  --span-bg-color: #BDBDBD;
+
 }
 
 * {
@@ -9,6 +11,5 @@
 body {
   max-width: 1440px;
   margin: 0 auto;
-  height: 100vh;
   background-color: var(--main-bg-color);
 }
