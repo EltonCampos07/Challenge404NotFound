@@ -1,0 +1,27 @@
+main {
+  display: flex;
+  height: 974px;
+  padding-top: 12.5rem;
+}
+
+.Main-imagem {
+  max-width: 45rem;
+  padding-left: 77px;
+  padding-right: 103px;
+}
+
+.Main-imagem > img {
+  max-width: 100%;
+}
+
+@media (max-width: 450px) {
+  main {
+    flex-direction: column;
+    padding-top: 64px;
+  }
+
+  .Main-imagem {
+    padding-left: 44px;
+    padding-right: 24px;
+  }
+}

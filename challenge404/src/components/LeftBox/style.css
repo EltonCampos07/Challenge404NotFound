@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.LeftBox-container {
+  width: 45rem;
+  padding-left: 15px;
+  font-family: "Space Mono";
+  font-style: normal;
+  letter-spacing: -0.035em;
+}
+
+.LeftBox-title {
+  max-width: 36.625rem;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 95px;
+  margin-bottom: 36px;
+}
+
+.LeftBox-paragraph {
+  max-width: 23.813rem;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 64px;
+}
+
+@media (max-width: 450px) {
+  .LeftBox-container {
+    max-width: 23.438rem;
+  }
+
+  .LeftBox-title {
+    font-size: 48px;
+    line-height: 71px;
+    margin-bottom: 30px;
+  }
+
+  .LeftBox-paragraph {
+    max-width: 20.5rem;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 66px;
+  }
+}
